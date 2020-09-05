@@ -1,4 +1,3 @@
-
 package com.stackroute;
 import java.util.ArrayList;
 import java.util.List;
@@ -39,7 +38,7 @@ public class SearchElementInList {
 
     public static void main(String[] args) {
         List<String> stringList = new ArrayList<>();
-        SearchList searchList = null;
+        SearchElementInList searchList = null;
         stringList.add("apple");
         stringList.add("mango");
         stringList.add("Cherry");
