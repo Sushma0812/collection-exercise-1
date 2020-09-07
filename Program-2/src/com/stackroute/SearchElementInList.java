@@ -25,7 +25,7 @@ public class SearchElementInList {
         return -1;
 
     }
-    //case insensitive search of an element in a list
+    //case insensitive search of an desired element in a list
     public static int serachFruitlnListIgnoreCase(List<String> array, String key) {
         for (int i = 0; i < array.size(); i++) {
             if (key.equalsIgnoreCase(array.get(i))) {

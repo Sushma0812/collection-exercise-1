@@ -3,7 +3,7 @@ package com.stackroute;
 import java.util.*;
 
 public class SortedSetToList {
-
+   //this method contains a set to which elements are add and converted it to list
     public static void main(String[] args) {
         SortedSet<String> string = new TreeSet<String>();
         string.add("Harry");

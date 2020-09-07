@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SumOfElements {
-    //this method is used to add all elements of two lists and display sum
+    //this method is used to add all elements of two lists and display sum of the two lists
     public static List<Integer> getSumOfListElements(List<Integer> firstList, List<Integer> secondList) {
         List<Integer> integerListOne = new ArrayList<>();
         integerListOne.addAll(firstList);
