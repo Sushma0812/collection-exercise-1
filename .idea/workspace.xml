@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93b6cb0a-4d8d-43e9-83d1-c4ae654be721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Program-1/src/com/stackroute/ArrayListOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-1/src/com/stackroute/ArrayListOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program-2/src/com/stackroute/SearchElementInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-2/src/com/stackroute/SearchElementInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program-3/src/com/stackroute/SumOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-3/src/com/stackroute/SumOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program-4/src/com/stackroute/SortedSetToList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-4/src/com/stackroute/SortedSetToList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program-5/src/com/stackroute/Catalog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-5/src/com/stackroute/Catalog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program-6/src/com/stackroute/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Program-6/src/com/stackroute/PatientService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hGGdSguflArWHt2chNmualnBSk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93b6cb0a-4d8d-43e9-83d1-c4ae654be721" name="Default Changelist" comment="" />
+      <created>1599630102462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599630102462</updated>
+    </task>
+    <servers />
+  </component>
+</project>

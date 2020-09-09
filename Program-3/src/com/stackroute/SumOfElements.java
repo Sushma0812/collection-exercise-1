@@ -47,17 +47,17 @@ public class SumOfElements {
     }
     public static void main(String[] args) {
         List<Integer> firstList = new ArrayList<>();
-        SumOfElements addList = null;
-        Scanner scanner = new Scanner(System.in);
-        int firstListSize = scanner.nextInt();
+        SumOfElements sumofelements = new SumOfElements();
+        Scanner reader = new Scanner(System.in);
+        int firstListSize = reader.nextInt();
         for(int i=0; i<firstListSize; i++){
             firstList.add(i);
         }
         List<Integer> secondList = new ArrayList<>();
-        int secondListSize = scanner.nextInt();
+        int secondListSize = reader.nextInt();
         for(int i=0; i<secondListSize; i++){
             secondList.add(i)
         }
-        addList.getSumOfListElements(firstList, secondList);
+        sumofelements.getSumOfListElements(firstList, secondList);
     }
 }

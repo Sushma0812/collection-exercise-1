@@ -44,12 +44,12 @@ public class Catalog {
         return string;
     }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         List<String> string = new ArrayList<>();
         //reads elements from user
         System.out.println("Enter elements");
         for (int i = 0; i < 3; i++) {
-            String j = scanner.nextLine();
+            String j = reader.nextLine();
             string.add(j);
         }
         List<String> stringList = new ArrayList<>();

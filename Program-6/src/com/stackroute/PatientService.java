@@ -3,17 +3,17 @@ import java.util.*;
 public class PatientService {
     //this method is used to add patient details and display the details
     public static HashSet<Patient> addPatient(int registrationNumber, String name, char gender) {
-        HashSet<Patient> patientHashSet = new HashSet<Patient>();
-        patientHashSet.add(new Patient(101, "Andreia", 'f'));
-        patientHashSet.add(new Patient(102, "Jyothi", 'f'));
-        patientHashSet.add(new Patient(103, "Tom", 'm'));
-        patientHashSet.add(new Patient(104, "John", 'm'));
-        Iterator<Patient> iterator = patientHashSet.iterator();
+        HashSet<Patient> patient = new HashSet<Patient>();
+        patient.add(new Patient(101, "Andreia", 'f'));
+        patient.add(new Patient(102, "Jyothi", 'f'));
+        patient.add(new Patient(103, "Tom", 'm'));
+        patient.add(new Patient(104, "John", 'm'));
+        Iterator<Patient> iterator = patient.iterator();
         while (iterator.hasNext()) {
             Patient patient = (Patient) iterator.next();
             System.out.println(patient);
         }
-        return patientHashSet;
+        return patient;
     }
     //this method is used to check whether the patient is present or not
     public static int searchPatient(Set<Patient> set, int registrationNumber) {

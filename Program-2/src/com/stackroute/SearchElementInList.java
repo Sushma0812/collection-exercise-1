@@ -31,16 +31,16 @@ public class SearchElementInList {
         return -1;
     }
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner reader = new Scanner(System.in);
         List<String> stringList = new ArrayList<>();
-        int listSize = scanner.nextInt();
+        int listSize = reader.nextInt();
         for(int i=0; i<listSize; i++){
-            String names = scanner.next();
+            String names = reader.next();
             stringList.add(names)
         }
         //reads search element from user
         System.out.println("Enter search element");
-        String key = scanner.nextLine();
+        String key = reader.nextLine();
         int valueOne = serachFruitlnList(stringList, "mango");
         if (valueOne == -1) {
             System.out.println("Not found");
