@@ -48,13 +48,13 @@ public class SumOfElements {
     public static void main(String[] args) {
         List<Integer> firstList = new ArrayList<>();
         SumOfElements addList = null;
-        Scanner reader = new Scanner(System.in);
-        int firstListSize = reader.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int firstListSize = scanner.nextInt();
         for(int i=0; i<firstListSize; i++){
             firstList.add(i);
         }
         List<Integer> secondList = new ArrayList<>();
-        int secondListSize = reader.nextInt();
+        int secondListSize = scanner.nextInt();
         for(int i=0; i<secondListSize; i++){
             secondList.add(i)
         }

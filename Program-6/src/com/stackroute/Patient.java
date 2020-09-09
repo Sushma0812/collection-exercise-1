@@ -47,7 +47,7 @@ class Patient {
     public String toString() {
         return "[" + registrationNumber + ", " + name + ", " + gender + "]";
     }
-    //
+
     public int compareTo(Patient patientDetails) {
         return (this.getName().compareTo(patientDetails.getName()));
     }

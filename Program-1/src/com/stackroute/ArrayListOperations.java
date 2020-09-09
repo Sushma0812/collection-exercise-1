@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class ArrayListOperations{
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList<String>();
-        Scanner reader = new Scanner(System.in);
-        int listSize = reader.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int listSize = scanner.nextInt();
         //reads elements from the user
         for(int i=0; i<listSize; i++){
-            String names = reader.next();
+            String names = scanner.next();
             arrayList.add(names)
         }
         //display the elements

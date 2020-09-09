@@ -4,10 +4,10 @@ public class SortedSetToList {
     //this method contains a set to which elements are added and converted it to list
     public static void main(String[] args) {
         SortedSet<String> stringSet = new TreeSet<String>();
-        Scanner reader = new Scanner(System.in);
-        int stringSetSize = reader.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int stringSetSize = scanner.nextInt();
         for(int i=0; i<stringSetSize; i++){
-            String names = reader.next();
+            String names = scanner.next();
             stringSet.add(names)
         }
         //displays the elements in the set
