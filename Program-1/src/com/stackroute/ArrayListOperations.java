@@ -11,7 +11,7 @@ public class ArrayListOperations{
         //reads elements from the user
         for(int i=0; i<listSize; i++){
             String names = reader.next();
-            arrayList.add(names)
+            arrayList.add(names);
         }
         //display the elements
         System.out.println(arrayList);

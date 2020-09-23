@@ -2,7 +2,7 @@ Collection-Exercise-!
 
 Program 1:
 
- Write a Java program to update the specific array element by given element and empty the array list .
+ Write a Java program to update the specific array element by given element and empty the array list
 
 Program 2:
 
